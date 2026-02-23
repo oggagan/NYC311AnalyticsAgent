@@ -1,0 +1,66 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.yarn-integrity
+dist/
+.next/
+out/
+.vite/
+*.local
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temp
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage/
+*.lcov
+
+# Misc
+*.bak
+*.tmp
